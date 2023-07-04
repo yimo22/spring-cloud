@@ -1,0 +1,6 @@
+encrypt:
+#  key: abcdefghizjklmnopqrstuvwxyz1234567890 # 대칭키 (JCE)
+  key-store:
+    location: file:///${user.home}/Desktop/Work/keystore/apiEncryptionKey.jks
+    password: asdf1234
+    alias: apiEncryptionKey
